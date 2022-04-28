@@ -1,0 +1,9 @@
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  text-align: right;
+}
+
+strong {
+  color: rgb(213, 139, 2);
+}

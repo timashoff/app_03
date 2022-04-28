@@ -1,0 +1,36 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section>img {
+  display: flex;
+  height: 30vmax;
+  align-self: center;
+}
+
+section>h1,
+section>p {
+  margin: 0;
+  padding: 1vmax;
+}
+
+.text-description {
+  margin: 2rem 0;
+  background-color: rgb(245, 245, 245);
+}
+
+.text-description>strong {
+  color: rgb(213, 139, 2);
+}
+
+.big--photo {
+  margin: 2rem 0;
+  display: flex;
+  align-self: center;
+  height: 35vmax;
+}
+
+.big--photo01 {
+  height: 55vmax;
+}

@@ -1,0 +1,40 @@
+.also {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vmax;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20vmax;
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.card--image {
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid green; */
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vmax 0;
+  /* border: 1px solid blue; */
+}
+
+.card--stats>span {
+  box-sizing: border-box;
+  padding: 0.3vmax;
+}
+
+.card .card--name {
+  letter-spacing: -0.8px;
+}
