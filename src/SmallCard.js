@@ -6,7 +6,7 @@ export function SmallCard(props) {
     <div className='card--stats'>
       <span className='card--name'><strong> {props.name} </strong></span>
       <span className='stock'>Out of stock</span>
-      <span className='price'> <b>{props.price}</b> </span>
+      <span className='price'> <b>{props.price}$</b> </span>
     </div>
-  </div>;
+  </div>
 }
