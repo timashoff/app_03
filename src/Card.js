@@ -13,7 +13,7 @@ export function Card() {
   console.log(cards)
 
   return (
-    <div className='also'>
+    <div className='cards'>
       {cards}
     </div>
   )
