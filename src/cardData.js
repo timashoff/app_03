@@ -18,4 +18,4 @@ export const cardData = [
     name: 'Pi Module 3',
     price: 86,
   },
-];
+]
