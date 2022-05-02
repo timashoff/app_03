@@ -1,17 +1,14 @@
 import './card.css'
-import { SmallCard } from './SmallCard'
+import { CardSmall } from './CardSmall'
 import { cardData } from './cardData'
 
 export function Card() {
-  const cards = cardData.map(function (item) {
-
-    return <SmallCard
-      img={item.img}
-      name={item.name}
-      price={item.price} />
-  })
-  console.log(cards)
-
+  const cards = cardData.map(item =>
+    <CardSmall
+      key={item.id}
+      {...item}
+    />
+  )
   return (
     <div className='cards'>
       {cards}
